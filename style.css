@@ -71,3 +71,63 @@ footer {
   background: #0078d7;
   color: white;
 }
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+  background: #6200ea;
+  color: white;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#projects {
+  padding: 30px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: 250px;      /* фиксируем ширину */
+  text-align: center;
+}
+
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  margin-top: 30px;
+}
